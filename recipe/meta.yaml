@@ -1,5 +1,5 @@
 {% set name = "aiounittest" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiounittest-{{ version }}.tar.gz
-  sha256: 5bd6b507a0df4f3497340fce3f6d41b8e558f5c0ad266efc7cebe5bc41c6211b
+  sha256: bf51a4a430d28b1a527abb0bea1465a3a36a2bbca13bf9b84e749985b4c5a788
 
 build:
   number: 0
