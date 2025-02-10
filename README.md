@@ -14,12 +14,11 @@ when writing a test of the asynchronous code (asyncio). You can test:
 
 - synchronous code (same as the unittest.TestCase)
 - asynchronous code, it supports syntax with async/await (Python 3.5+) and
-  asyncio.coroutine/yield from (Python 3.4)
+asyncio.coroutine/yield from (Python 3.4)
 
 In the Python 3.8 (release note) and newer consider to use the
 unittest.IsolatedAsyncioTestCase. Builtin unittest module is now
 asyncio-featured.
-
 
 Current build status
 ====================
