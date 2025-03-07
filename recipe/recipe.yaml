@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "1.4.3"
+  version: "1.5.0"
 
 package:
   name: aiounittest
@@ -10,11 +10,11 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/a/aiounittest/aiounittest-${{ version }}.tar.gz
-    sha256: dfe3af30aa0e08fa6c3a3621f78b0b2e5658fe56c370db709f002407a1027dbf
+    sha256: 3c20ab00909419749061a4cb1a2755f034d10c1f6455adb1f03d7c16dedce711
     target_directory: dist
   # TODO: maybe remove after https://github.com/kwarunek/aiounittest/pull/27
   - url: https://github.com/kwarunek/aiounittest/archive/refs/tags/${{ version }}.tar.gz
-    sha256: 25752ec67087f5bd4af5d9ec10c9d7c0dbfe64820610f66044a2191c922d380b
+    sha256: 88124a63de279953409a9c390b24af3747ccf45e028ea08c43dc408553fef640
     target_directory: src
 
 build:
